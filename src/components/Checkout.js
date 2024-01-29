@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import { useHistory } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "../styles/Checkout.css";
