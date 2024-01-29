@@ -1,29 +1,29 @@
 import Caprese from "../assets/capresesalata.jpg";
-import Margarita from "../assets/margaritapica.jpg";
-import Funghi from "../assets/funghipica.jpg";
-import Quattro from "../assets/4vrstesirapica.jpg";
-import Capri from "../assets/kapricozapica.jpg";
+import Sasa from "../assets/sasa.jpeg";
+import Beans from "../assets/grasak.jpeg";
+import Ribss from "../assets/ribss.jpg";
+import Besamel from "../assets/sniclabeschamel.jpg";
 import Salmon from "../assets/dimljenilosos.jpg";
-import Club from "../assets/clubsendvic.jpg";
-import Hamburger from "../assets/hamburger.jpg";
-import Potatoes from "../assets/krompirići.jpg";
-import Fries from "../assets/pomfrit.jpg";
+import Rice from "../assets/riza.jpeg";
+import Potato from "../assets/sliderfive.jpg";
+import Asparagus from "../assets/asparagus.jpeg";
+import Bread from "../assets/hljeb.jpeg";
 import ChickenB from "../assets/pilecaprsa.jpg";
 import ChickenF from "../assets/piletinasagljivama.jpg";
-import Cordon from "../assets/Cordonbleu.jpg";
+import Cordon from "../assets/photo2.avif";
 import Veal from "../assets/telećisteak.jpg";
 import VealB from "../assets/teletinasabademima.jpg";
 import MeatSaber from "../assets/sabljameso.jpg";
 import SteakM from "../assets/biftekmedaljoni.jpg";
-import SteakG from "../assets/biftekgorgonzola.jpg";
+import SteakG from "../assets/photo1.jpg";
 import Steak from "../assets/biftekzar.jpg";
 import RibeyeG from "../assets/ramstekgljive.jpg";
 import Ribeye from "../assets/ramstekzar.jpg";
-import KebabT from "../assets/kebabtuna.jpg";
+import KebabT from "../assets/photo7.avif";
 import ShishB from "../assets/shishkebabbiftek.jpg";
 import ShishP from "../assets/shishkebabpiletina.jpg";
 import Apple from "../assets/pitajabuka.jpg";
-import Baklava from "../assets/baklava.jpg";
+import Baklava from "../assets/photo5.avif";
 import Pear from "../assets/kruška.jpg";
 import Sote from "../assets/sotestroganov.jpg";
 import Vege from "../assets/vegeplata.jpg";
@@ -33,32 +33,32 @@ export const MenuList = [
   {
     name: "Caprese salad",
     image: Caprese,
-    price: 8,
+    price: 4,
     desc: "Mozzarella, tomato, olive oil, basil",
   },
   {
-    name: "Margarita",
-    image: Margarita,
-    price: 7,
-    desc: "Tomato sauce, mozzarella, origano, basil",
-  },
-  {
-    name: "Funghi",
-    image: Funghi,
+    name: "New Yorker steak with peas",
+    image: Sasa,
     price: 8,
-    desc: "Tomato sauce, cheese, mushrooms",
+    desc: "Red meat, peas, origano, basil",
   },
   {
-    name: "Quattro Formaggi",
-    image: Quattro,
+    name: "Birmington Steak",
+    image: Beans,
     price: 8,
-    desc: "Tomato sauce, 4 types of cheese",
+    desc: "Birmington steak, grilled vegetables",
   },
   {
-    name: "Capricciosa",
-    image: Capri,
+    name: "Sticky ribs in sauce",
+    image: Ribss,
+    price: 8,
+    desc: "Beef ribs",
+  },
+  {
+    name: "Snicel with Beschamel",
+    image: Besamel,
     price: 9,
-    desc: "Tomato sauce, cheese, salami, mushrooms",
+    desc: "Beschamel sauce, snicel, potato",
   },
   {
     name: "Smoked salmon",
@@ -67,26 +67,26 @@ export const MenuList = [
     desc: "Tagliatelle, smoked salmon, white wine, dill ",
   },
   {
-    name: "Club sandwich",
-    image: Club,
+    name: "Salmon with rice",
+    image: Rice,
     price: 7,
-    desc: "Chicken, cheese, tomatoes",
+    desc: "Salmon, cheese, rice",
   },
   {
-    name: "Hamburger",
-    image: Hamburger,
+    name: "Beef with mashed potatoes",
+    image: Potato,
     price: 6,
-    desc: "Hamburger, tomatoes, ketchup, cucumbers",
+    desc: "Beef, mashed potatoes, salad",
   },
   {
-    name: "Potatoes",
-    image: Potatoes,
+    name: "Chicken & Asparagus",
+    image: Asparagus,
     price: 4,
-    desc: "One portion",
+    desc: "Chicken, sauce, asparagus",
   },
   {
-    name: "French Fries",
-    image: Fries,
+    name: "Bread",
+    image: Bread,
     price: 4,
     desc: "One portion",
   },
@@ -103,10 +103,10 @@ export const MenuList = [
     desc: "Chicken, mushrooms, rice, vegetables",
   },
   {
-    name: "Cordon Bleu",
+    name: "Gambers with Sphagetti",
     image: Cordon,
     price: 10,
-    desc: "Chicken, cheese, salami",
+    desc: "Gambers, cheese, sphagetti",
   },
   {
     name: "Veal Steak",
@@ -157,10 +157,10 @@ export const MenuList = [
     desc: "Steak, potatoes, vegetables, spices",
   },
   {
-    name: "Kebab Tuna",
+    name: "Salmon with spinach",
     image: KebabT,
     price: 14,
-    desc: "Tuna steak, mint, harissa, kus-kus",
+    desc: "Salmon, mint, harissa, kus-kus",
   },
   {
     name: "Shish kebab steak",
@@ -199,10 +199,10 @@ export const MenuList = [
     desc: "Classic, Baked, Apple, Dessert.",
   },
   {
-    name: "Baklava",
+    name: "Rare steak",
     image: Baklava,
-    price: 5,
-    desc: "Sweet, Nutty, Layered",
+    price: 20,
+    desc: "Rare steak with grilled vegetables",
   },
   {
     name: "Caramelized pear",
